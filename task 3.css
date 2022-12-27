@@ -1,0 +1,520 @@
+ body{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* height: 1000%; */
+    overflow: auto;
+    text-transform:capitalize;
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(255, 129, 150);
+    overflow: auto;
+    position: fixed;
+    top:0;
+    left:0;
+    opacity: 0.7;
+}
+.logoo{
+    height: 50px;
+    width: 180px;
+    margin-left: 40px;
+    float: left;
+}
+ul{
+    list-style-type:none ;
+    font-size:20px;
+    float: right;
+    margin-right: 130px;
+    margin-top: 10px;
+
+}
+.li1{
+    display: inline-block;
+    margin-left: 20px;
+}
+.li1 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.h1{
+    position:absolute; 
+    color:rgb(255, 122, 144);
+    margin:250px 0 0px 250px;
+    word-spacing:4px;
+    letter-spacing:1px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:50px;
+}
+.p1{
+    margin:330px 0 0 355px;
+    position:absolute;
+    color:rgb(255, 122, 144);
+    word-spacing:2px;
+    letter-spacing:1px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+}
+.parent1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../css/pink.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    /*position: absolute;*/
+   /* z-index: -1;*/
+    top: 0;
+}
+
+.but1,.but2{
+    width:200px;
+    height:50px;
+    font-size:20px;
+    background-color:rgb(255, 122, 144);
+    color:rgb(255, 255, 255);
+    border-radius:20px;
+    border-color: rgb(255, 122, 144) ;
+}
+.but1{
+    margin-left:540px;
+    margin-top:450px;
+}
+.but2 {
+    margin-left: 50px;
+} 
+.but1:hover{
+    background-color: rgb(60, 60, 60);
+}
+.but2:hover{
+    background-color: rgb(60, 60, 60);
+}
+.parent2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg2.jfif);
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-size:cover;
+    /* overflow: auto; */
+}
+.h11 {
+    font-size: 50px;
+    text-align: center;
+    color:black;
+    margin-top: 0;
+}
+.child1 {
+    width: 100%;
+    height: 100%;
+    margin: auto; 
+    /* background-color: rgb(255, 218, 224); */
+    margin-top: -1;
+}
+.tables {
+    margin-top: 150px;
+    /* margin: auto; */
+    /* background-color: red; */
+    overflow: auto;
+}
+
+.t0 {
+    width: 80px;
+    height: 7px;
+    background-color:black;
+    margin: auto;
+    margin-top: -20;
+}
+
+.t1 , .t2 , .t3 {
+    width: 27%;
+    height: 250px; 
+    border: 3px solid black;
+    float: left;
+    margin-left: 4%; 
+    text-align:center;
+}
+.h1t , .p1t  {
+ color: palevioletred;
+ margin-top: 60px;
+}
+.h1t {
+    font-size: 40px;
+}
+.p1t {
+    font-size: 20px;
+}
+.a1t {
+    font-size: 18px;
+    color: rgb(0, 85, 255);
+}
+.t1:hover{
+    background-color: black;
+}
+.t2:hover{
+    background-color: black;
+}
+.t3:hover{
+    background-color: black;
+}
+
+.t1:hover .a1t{
+    color: rgb(255, 255, 255);
+}
+.t2:hover .a1t{
+    color: white;
+}
+.t3:hover .a1t{
+    color: white;
+}
+.parent3 {
+    width: 100%;
+    height: 1100px;
+    background-image: url(../images/bg2.jfif);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hc {
+    font-size: 50px;
+    text-align: center;
+    color:black;
+    margin-top: 0;
+}
+.dc {
+    width: 80px;
+    height: 7px;
+    background-color:black;
+    margin: auto;
+    margin-top: -20;
+}
+.c1 , .c2 , .c3 , .c4 , .c5 , .c6 {
+    width: 23%;
+    height: 400px;
+    border: solid 3px black;
+    float: left;
+    margin-left: 8%;
+    margin-top: 3% ;
+}
+.c1{
+    background-image: url(../images/skirt.jfif);
+    background-size: cover;
+}
+.c2{
+    background-image: url(../images/blover.jfif);
+    background-size: cover;
+}
+.c3{
+    background-image: url(../images/dress.jfif);
+    background-size: cover;
+}
+.c4{
+    background-image: url(../images/shoes.jfif);
+    background-size: cover;
+}
+.c5{
+    background-image: url(../images/bags.jfif);
+    background-size: cover;
+}
+.c6{
+    background-image: url(../images/accessories.jfif);
+    background-size: cover;
+}
+.c1:hover , .c2:hover ,.c3:hover ,.c4:hover ,.c5:hover ,.c6:hover {
+ 
+}
+.bt{
+    font-size: 50px;
+    text-align: center;
+    color:black;
+    margin-top: 0;
+}
+.btl{
+    width: 80px;
+    height: 7px;
+    background-color:black;
+    margin: auto;
+    margin-top: -20;
+}
+.parent4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg2.jfif);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box1 , .box2 , .box3, .box4, .box5, .box6 {
+    width: 26%;
+    height: 26%;
+    margin-left: 5%;
+    margin-top: 4%;
+    border: solid 2px black;
+    float: left;
+}
+.box1h , .box2h , .box3h, .box4h , .box5h , .box6h {
+font-size: 27px;
+/* text-align: center; */
+margin-top: 45px;
+/* color: rgb(255, 129, 150); */
+}
+.box{
+    text-align: center;
+}
+.boxp {
+    font-size: 18px;
+    color: rgb(159, 159, 159);
+}
+.boxa{
+    color: rgb(0, 119, 255);
+}
+.parent5 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg2.jfif);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.why {
+    float: left;
+}
+ .hwhy {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 150px;
+ }
+ .borderwhy{
+    width: 80px;
+    height: 4px;
+    background-color:rgb(255, 129, 150);
+    margin-left:150px;
+    margin-top: -20;
+ }
+ .pwhy{
+    margin-left: 150px;
+    margin-top: 100px;
+    font-size: 25px;
+    color: rgb(146, 146, 146);
+ }
+ .olwhy{
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 20px;
+    list-style-type: circle;
+    line-height: 40px;
+    color:  rgb(146, 146, 146);
+ }
+ .picwhy{
+    margin-left: 55%;
+    height: 550px;
+    width: 450px;
+    background-image: url(../images/store.jfif); 
+    background-size: cover;
+ }
+ .parent6{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/shop2.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+ }
+ .overlay{ 
+    width: 100%;
+    height: 50vh;
+    background-color: black; 
+    opacity: 0.5;
+    position: absolute;
+ }
+ .clnt1{
+    margin-top: 0;
+ }
+ .item1 {
+    margin-left: 15%;
+    float: left;
+ }
+ .item2 {
+    margin-left: 25%;
+    float: left;
+ }
+ .item3 {
+    margin-left: 25%;
+    float: left;
+ }
+ .parent7 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg2.jfif);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ .pricingtable{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+}
+.pricingline{
+    margin: auto;
+    width: 70px;
+    height: 5px;
+    background-color: rgb(255, 129, 150);
+    margin-top: -30px;
+}
+.contain {
+    margin-top: 150px;
+}
+.contain1{
+    border: 2px;
+    width: 250px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(159, 159, 159);
+    margin-left: 250px;
+    float: left;
+    text-align: center;
+}
+.contain2{
+    border: 2px;
+    border: 2px solid rgb(159, 159, 159);
+    width: 250px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 100px;
+    float: left;
+    text-align: center;
+}
+.contain3{
+    border: 2px;
+    border: 2px solid rgb(159, 159, 159);
+    width: 250px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+}
+.hcontain1{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(159, 159, 159);
+}
+.contain1:hover{
+    background-color: rgb(230, 230, 230);
+}
+.contain2:hover{
+    background-color: rgb(230, 230, 230);
+}
+.contain3:hover{
+    background-color: rgb(230, 230, 230);
+}
+.circle{
+    text-align: center;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    border: 2px solid rgb(255, 129, 150);
+    border-radius: 50%;
+}
+.p1contain1{
+    color: rgb(159, 159, 159);
+}
+.acontain1{
+    color: rgb(255, 129, 150);
+    text-decoration: none;
+    border: 2px solid rgb(255, 129, 150);
+}
+.parent8{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg2.jfif);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.ourteam {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+}
+.teamline{
+    margin: auto;
+    width: 70px;
+    height: 5px;
+    background-color: rgb(255, 129, 150);
+    margin-top: -30px;
+}
+.teamcontent {
+    width: 80%;
+    margin: auto;
+}
+.cards {
+    margin-top: 100px;
+    overflow: auto;
+}
+.card {
+    float: left;
+    margin-left: 30px;
+    width: 28%;
+    background-color: rgb(255, 231, 234);
+    padding: 20px 16px;
+    text-align: center;
+    position: relative;
+}
+.imgcard{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.imgcard img {
+    width: 100%;
+}
+.teamoverlay{
+    position: absolute;
+    top:0;
+    right: 0;
+    background-color: black;
+    opacity: 0.5;
+    visibility: hidden; 
+}
+.teamoverlay a{
+display: block;
+width: 40px;
+height: 40px;
+background-color: rgb(0, 183, 255);
+color: aliceblue;
+}
+.teamoverlay a i{
+    line-height: 40px;
+}
+.card:hover .teamoverlay{
+    visibility: visible;
+    opacity: 1;
+}
+.teaminfotitle {
+    text-transform: uppercase;
+}
+.teaminfotext{
+    text-transform:capitalize;
+    color: rgb(135, 135, 135);
+}
+.card:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(188, 188, 188);
+    opacity: 0;
+}
+.card:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity:0.5;
+    transition: 1s;
+}
